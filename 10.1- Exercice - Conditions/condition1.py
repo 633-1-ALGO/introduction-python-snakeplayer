@@ -3,4 +3,10 @@
 # Résultat attendu : Un message affichant "Produit positif" ou "Produit négatif" ou "Produit nul".
 # Indications :  Vous pouvez changer les valeurs des variables pour vos tests.
 c = 42
-d = 31
+d = -1
+if c == 0 or d == 0:
+    print("Produit nul")
+elif (c < 0 and d > 0) or (c > 0 and d < 0):
+    print("Produit négatif")
+elif (c > 0 and d > 0) or (c < 0 and d < 0):
+    print("Produit positif")
