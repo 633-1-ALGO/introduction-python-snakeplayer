@@ -4,3 +4,10 @@
 
 a = 11
 b = 42
+
+
+a = a + b
+b = a - b
+a = a - b
+
+print("a=" + str(a) + " et b=" + str(b))
